@@ -1,0 +1,16 @@
+{
+  "groups": ["group1", "group2"],
+  "directories-access": ["managers"],
+  "directories": [
+    {
+      "C:\\path\\to\\directory1": [
+        "subdirectory1",
+        "subdirectory2",
+        "subdirectory3"
+      ]
+    },
+    {
+      "D:\\path\\to\\directory2": ["subdirectory4"]
+    }
+  ]
+}

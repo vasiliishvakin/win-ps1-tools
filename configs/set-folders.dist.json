@@ -1,0 +1,15 @@
+{
+  "winfolders": {
+    "path": "C:\\user-dirs\\{{ username }}\\winfolders\\",
+    "folders": [
+      "Desktop",
+      "Documents",
+      "Downloads",
+      "Games",
+      "Music",
+      "Pictures",
+      "SavedGames",
+      "Videos"
+    ]
+  }
+}

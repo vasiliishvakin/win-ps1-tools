@@ -1,0 +1,37 @@
+root = true
+
+[*]
+charset = utf-8
+# indent_size intentionally not specified in this section
+indent_style = space
+insert_final_newline = true
+end_of_line = crlf
+
+# Source code
+[*.{cs,ps1,psd1,psm1}]
+indent_size = 4
+
+# Shell scripts
+[*.sh]
+end_of_line = lf
+indent_size = 4
+
+# Xml project files
+[*.{csproj,resx,ps1xml}]
+indent_size = 2
+
+# Data serialization
+[*.{json,yaml,yml}]
+indent_size = 2
+
+# Markdown
+[*.md]
+indent_size = 2
+
+# Xml files
+[*.{resx,ruleset,stylecop,xml,xsd,xsl}]
+indent_size = 2
+
+# Xml config files
+[*.{props,targets,config,nuspec}]
+indent_size = 2
